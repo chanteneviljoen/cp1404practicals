@@ -23,7 +23,7 @@ def determine_result(score):
 
 
 def determine_random():
-    """Determine the result of a given score."""
+    """Determine the random result."""
     return determine_result(random.randint(0, 100))
 
 

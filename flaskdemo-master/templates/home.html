@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    {% if home_count == 1 %}
+    <p>This is the home page. It's not exciting yet...</p>
+    <p>Press HOME again, I dare you ...</p>
+    {% elif home_count == 2 %}
+    <p>Tricked ya!</p>
+    {% elif home_count == 3 %}
+    <p>What are you still doing here?? GO HOME</p>
+    {% elif home_count == 4 %}
+    <p>Funny joke aye ;)</p>
+{% endblock %}
